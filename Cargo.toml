@@ -1,6 +1,6 @@
 [package]
-name = "flakebox-project"
-version = "0.1.0"
+name = "rs-https"
+version = "0.0.0"
 edition = "2021"
 license = "MIT"
 

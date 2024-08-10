@@ -10,7 +10,7 @@
   outputs = { self, nixpkgs, flake-utils, flakebox }:
     flake-utils.lib.eachDefaultSystem (system:
       let
-        projectName = "flakebox-project";
+        projectName = "rs-https";
 
         flakeboxLib = flakebox.lib.${system} {
           config = {
